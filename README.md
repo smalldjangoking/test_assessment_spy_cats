@@ -3,7 +3,7 @@
 <div align="center">
   <a href="https://github.com/smalldjangoking/test_assessment_spy_cats">
     <img src="https://github.com/smalldjangoking/DRF_practice_META/blob/master/LittleLemonAPI/roots.png?raw=true" 
-         alt="Logo" width="100"/>
+         alt="Logo" width="500"/>
   </a>
 </div>
 
@@ -106,5 +106,6 @@ uvicorn main:app --reload
 
 ### 🕵️ Spies (`/spies/`)
 - `PATCH /spies/{cat_id}/target/{target_id}` — Update a target’s notes or mark as complete  
+
 
 
