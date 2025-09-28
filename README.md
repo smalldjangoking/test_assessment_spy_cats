@@ -7,8 +7,6 @@
 
 # Python engineer test assessment - the Spy Cat Agency
 
-# Python engineer test assessment - the Spy Cat Agency
-
 ### Overview
 
 This task involves building a CRUD application. The goal is to create a system that showcases your understanding in building RESTful APIs, interacting with SQL-like databases, and integrating third-party services. The test assessment is expected to be done within 2 hours.
@@ -45,24 +43,6 @@ From the agency perspective, they regularly hire new spy cats and so should be a
     - Ability to assign a cat to a mission
     - Ability to list missions
     - Ability to get a single mission
-- **General**
-    - Framework
-        - Use any of: FastAPI, Django
-    - Database
-        - You can use any database
-    - Validations
-        - Make sure endpoints validate the request body and return an adequate status code if it’s not valid
-        - Validate cat’s breed with [TheCatAPI](https://api.thecatapi.com/v1/breeds)
-
-### Sharing the results
-
-- Make a repositories on Github
-- Add a README explaining how to build/start the application. Include any information you think will be useful for us
-- Define all of the endpoints in a Postman collection and add link to it in the README
-- As you have the repository in place, share a link to it with our recruiter. We will review it within 5-7 business days and return with a feedback
-- Don't hesitate to ask any questions
-
-Thank you!
 
 </details>
 
@@ -154,6 +134,7 @@ Just import the file into Insomnia to make manual API testing easier and faster.
 
 ### 🕵️ Spies (`/spies/`)
 - `PATCH /spies/{cat_id}/target/{target_id}` — Update a target’s notes or mark as complete  
+
 
 
 
