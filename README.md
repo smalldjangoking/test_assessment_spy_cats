@@ -5,42 +5,21 @@
 <details>
   <summary>📌 click to open task text</summary>
 
+# Python engineer test assessment - the Spy Cat Agency
+
 ### Overview
 
-This task involves building a CRUD application.  
-The goal is to create a system that showcases your understanding in building RESTful APIs, interacting with SQL-like databases, and integrating third-party services.  
-The test assessment is expected to be done within 2 hours.
-
----
+This task involves building a CRUD application. The goal is to create a system that showcases your understanding in building RESTful APIs, interacting with SQL-like databases, and integrating third-party services. The test assessment is expected to be done within 2 hours.
 
 ### Requirements
 
-Spy Cat Agency (SCA) asked you to create a management application, so that it simplifies their spying work processes.  
-SCA needs a system to manage their cats, missions they undertake, and targets they are assigned to.
+Spy Cat Agency (SCA) asked you to create a management application, so that it simplifies their spying work processes. SCA needs a system to manage their cats, missions they undertake, and targets they are assigned to.
 
-- **Cats perspective**:  
-  - A mission consists of spying on targets and collecting data.  
-  - One cat can only have **one mission at a time**.  
-  - A mission assumes **1–3 targets**.  
-  - While spying, cats should share collected data by writing notes on targets.  
-  - Cats update notes over time and eventually mark the target as **complete**.  
-  - If a target is complete → notes are **frozen** (cannot be updated).  
-  - After completing **all targets**, the mission is marked as **completed**.  
+From cats perspective, a mission consists of spying on targets and collecting data. One cat can only have one mission at a time, and a mission assumes a range of targets (minimum: 1, maximum: 3). While spying, cats should be able to share the collected data into the system by writing notes on a specific target. Cats will be updating their notes from time to time and eventually mark the target as complete. If the target is complete, notes should be frozen, i.e. cats should not be able to update them in any way. After completing all of the targets, the mission is marked as completed.
 
-- **Agency perspective**:  
-  - The agency regularly hires new spy cats.  
-  - They should be able to **add cats** and **visualize them in the system**.  
-  - The agency can **create missions** and assign them to available cats.  
-  - **Targets are created along with a mission** (no separate CRUD for targets).  
+From the agency perspective, they regularly hire new spy cats and so should be able to add them to and visualize in the system. SCA should be able to create new missions and later assign them to cats that are available. Targets are created in place along with a mission, meaning that there will be no page to see/create all/individual targets.
 
----
-
-### **Backend Requirements**
-- Build a RESTful API.  
-- CRUD operations for cats and missions.  
-- Targets are created/managed inside missions only.  
-- Notes must become immutable after the target is marked complete.  
-- Mark mission as complete once all targets are finished.  
+### **Backend Requirements:**
 
 </details>
 
@@ -132,6 +111,7 @@ Just import the file into Insomnia to make manual API testing easier and faster.
 
 ### 🕵️ Spies (`/spies/`)
 - `PATCH /spies/{cat_id}/target/{target_id}` — Update a target’s notes or mark as complete  
+
 
 
 
