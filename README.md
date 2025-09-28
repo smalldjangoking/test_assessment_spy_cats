@@ -71,6 +71,11 @@ The project is built with **FastAPI**.
 uvicorn main:app --reload
 ```
 
+
+There is a file `insomnia-export.1759061386297.zip` in this repository.  
+It contains a set of API requests for the Insomnia client, which can help you quickly test endpoints.  
+Just import the file into Insomnia to make manual API testing easier and faster.
+
 ---
 
 ## 🛠️ Technologies Used
@@ -106,6 +111,7 @@ uvicorn main:app --reload
 
 ### 🕵️ Spies (`/spies/`)
 - `PATCH /spies/{cat_id}/target/{target_id}` — Update a target’s notes or mark as complete  
+
 
 
 
