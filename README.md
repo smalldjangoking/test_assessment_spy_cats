@@ -1,12 +1,5 @@
 # 🕵️‍♂️ Python Engineer Test Assessment - the Spy Cat Agency
 
-<div align="center">
-  <a href="https://github.com/smalldjangoking/test_assessment_spy_cats">
-    <img src="https://github.com/smalldjangoking/DRF_practice_META/blob/master/LittleLemonAPI/roots.png?raw=true" 
-         alt="Logo" width="500"/>
-  </a>
-</div>
-
 ## Task Statement
 
 Build a CRUD application for the fictional Spy Cat Agency (SCA). The goal is to design a system that demonstrates your expertise in RESTful APIs, database interaction, and third-party service integration. You are expected to complete the assessment within 2 hours.
@@ -111,6 +104,7 @@ Just import the file into Insomnia to make manual API testing easier and faster.
 
 ### 🕵️ Spies (`/spies/`)
 - `PATCH /spies/{cat_id}/target/{target_id}` — Update a target’s notes or mark as complete  
+
 
 
 
